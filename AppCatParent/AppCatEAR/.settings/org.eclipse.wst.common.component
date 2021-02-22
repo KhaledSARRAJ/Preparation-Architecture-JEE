@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="AppCatEAR-1.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="AppCatWeb-1.0.war" deploy-path="/" handle="module:/resource/AppCatWeb/AppCatWeb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppCatBusiness-1.0.jar" deploy-path="/" handle="module:/resource/AppCatBusiness/AppCatBusiness">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppCatIBusiness-1.0.jar" deploy-path="/lib" handle="module:/resource/AppCatIBusiness/AppCatIBusiness">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppCatDao-1.0.jar" deploy-path="/" handle="module:/resource/AppCatDao/AppCatDao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppCatIDao-1.0.jar" deploy-path="/lib" handle="module:/resource/AppCatIDao/AppCatIDao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppCatEntity-1.0.jar" deploy-path="/lib" handle="module:/resource/AppCatEntity/AppCatEntity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
